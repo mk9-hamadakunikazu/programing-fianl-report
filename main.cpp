@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  prototype
+//  C++_practice_final
 //
-//  Created by 浜田国和 on 2021/08/06.
+//  Created by 浜田国和 on 2021/08/09.
 //
 
 #include <iostream>
@@ -41,7 +41,6 @@ int main(){
     if(A == "m"){
     string day;
     string y;
-    string E;
     int m;
     int a;
     
@@ -76,7 +75,7 @@ int main(){
     }
     
     ofstream outfile1("yd.txt",std::ios::app); //上書き
-    outfile1 <<  day << "    " << m << "    " <<  a  << E << endl;
+    outfile1 <<  day << "    " << m << "    " <<  a  << endl;
     outfile1.close();
     
     
